@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:centos8
 # Docker build arguments
 ARG SOURCE_DIR=/jellyfin
 ARG PLATFORM_DIR=/jellyfin/deployment/centos-package-x64
