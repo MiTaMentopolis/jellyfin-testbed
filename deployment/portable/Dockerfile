@@ -1,4 +1,4 @@
-FROM debian:10
+FROM debian:bookworm-20240513
 # Docker build arguments
 ARG SOURCE_DIR=/jellyfin
 ARG PLATFORM_DIR=/jellyfin/deployment/portable
